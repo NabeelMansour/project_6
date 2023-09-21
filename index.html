@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>SVG Project</title>
+  </head>
+  <body>
+    <div class="svg-container">
+      <!-- html svg file -->
+      <svg
+        width="240"
+        height="240"
+        viewbox="-10 -10 240 240"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <circle
+          cx="110"
+          cy="110"
+          r="100"
+          stroke-width="30"
+          fill="#0F4791"
+          stroke="#CE252C"
+        />
+        <polyline
+          points="50,50, 180,180, 50"
+          stroke="#CE252C"
+          stroke-width="20"
+          stroke-linecap="square"
+          stroke-linejoin="round"
+        />
+      </svg>
+
+      <!-- svg link file -->
+      <div class="delete-svg">
+        <svg>
+          <use href="images/delete.svg#delete"></use>
+        </svg>
+      </div>
+      
+    </div>
+  </body>
+</html>

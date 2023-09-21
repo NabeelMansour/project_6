@@ -1,0 +1,7 @@
+<svg width="350" height="350" fill="none" xmlns="http://www.w3.org/2000/svg">
+<symbol id="delete" viewbox="0 0 350 350">  
+  <circle cx="110" cy="110" r="90" stroke-width="30" fill="red" stroke="red" />
+  <polyline points="70,70, 150,150" stroke="white" stroke-width="15" stroke-linecap="square" stroke-linejoin="round" />
+  <polyline points="70,150,150,70,70" stroke="white" stroke-width="15" stroke-linecap="square" stroke-linejoin="round" />
+  </symbol>
+</svg>
