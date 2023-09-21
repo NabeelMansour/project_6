@@ -5,17 +5,16 @@
 }
 
 body {
+  max-width: 1170px;
   width: 100vw;
   height: 100vh;
   margin: 0 auto;
 }
 
 .svg-container {
-  text-align: center;
   margin: 100px auto;
-  max-width: 700px;
+  max-width: 500px;
   height: 500px;
-  border: 2px solid ;
   width: 100%;
 }
 
